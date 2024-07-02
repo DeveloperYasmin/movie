@@ -10,7 +10,7 @@ import MovieDetails from "./components/MovieDetails";
 function App(){
 const AppLayout = () => (
   <Provider store={appStore}>
-    <div className="container mx-auto p-4">
+    <div className="select-none">
       <Outlet />
     </div>
   </Provider>
